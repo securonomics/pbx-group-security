@@ -1,5 +1,6 @@
 # Business is a Machine: The Success of Elon Musk
 _(Time to complete: 45 min, 411 words)_
+
 _PhotoBox Security Blog Post Test_
 
 Elon Musk’s greatest weapon is that he analyzes the world with a programmer’s eye. In his biography, he talks about his love of code. He breaks problems into logical bits, finds out what he needs to solve a problem, and then executes the solution — his program — one step at the time.
