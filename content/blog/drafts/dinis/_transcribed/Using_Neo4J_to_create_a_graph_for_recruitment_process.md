@@ -1,22 +1,20 @@
 ---
 draft  : true
-title  : Creating a Neo4J graph for the recruitment process
+title  : Candidate Test: Graphing the recruitment process
 author : Dinis Cruz
 notes:
   - english and structure needs fixing
 ---
 
-Creating a Neo4J graph for the recruitment process
+Any recruitment process can be visualised as a giant graph: The requests for hires and positions to be filled, the skills that we need, the potential candidates and the interactions that we have with them, and the connection with members of the team or with communities. 
 
-Our recruitment process is, in a way, a giant graph, where you have the candidates to commit the work for, the potential candidates, the jobs that we have, the skills that we need, the interaction that we have with them, and the connection with members of the team or with communities. 
+The beauty of the graph is that you can evolve the process and the workflow. The design and flow of the process can iteratively evolve the more you understand it and the more data you collect. And eventually, you reach a stable state, where you have a process that works efficiently, captures the information you need, and can easily be modified to add new relationships and gives feedback on what actually is going on. 
 
-To see if we can create a way in Neo4J, which is a graph database, to store, to capture and to visualize, sorry, to store and visualize these relationships. And envisioned if Neo4J is the property base graph, something where the candidates are nodes, the skills are nodes, and the edges, our relationship and the connections between them. 
+A good workflow graph can help drive behavior, and it's much easier to scale. 
 
-So, another question that I have is on how do we store the data? Ideally, the raw data to be stored. And really vault format, so that it's easy to maintain and easy to update, and ideally on Github, which is then assumed and injected into a graph, so we can visualize this.
+As a way to get started, we can challenge the candidates to create an example of a simple recruitment process and how they could visualise the process in Neo4J, a graphing database. The goal would be to store, capture and visualize, data and relationships from the process. In Neo4J, for example, the properties of the base graph could be to make the candidates and skills into nodes, and our relationship and the connections between them as edges.
 
-And the reason to this, is so that, you can maintain and you can easily make changes. It's a much easier way to scale. Because for me the beauty of the graph, is that you can evolve the scheme. As you go along, you can, basically, create this evolutionary design, the more you understand it, the more data arrives, the more you create relationships. And eventually, you reach a stable state, where you have a perfect place to capture the information and that's when you know it's working. You know it's working, when it's very easy to add news and relationships to the graph based on your data, the actions. And that gives a feedback group on what actually is going on. So, drives your behavior. So, is that feedback loop that is actually important. 
+So, can we use our current recruitment process as a way to visualize this process? Can we use graphs in the recruitment process as a way to make it much more efficient and much more effective? We want to create a great experience for the candidates and make the process efficient so we can find the right candidates and capture data on the process. The problem today is that it's already really complex, and if we don't figure this out, we will actually get swamped. We want to answer basic questions -- such as when to reply to candidates, templates for replies, how to put pressure following an offer, and how to value the candidates. 
 
-So, what I want to see is, can we use our current recruitment process as a way to visualize this? So, can we use graphs in the recruitment process as a way to make it much more efficient and much more effective? We own to create a great experience for the candidates. We're also able to find, new and better, candidates and find exactly a great place to capture all the data that we already have, but when you look at it, it's already really complex, and if we don't do these, we actually get swamped. Even in basic things, when to reply? how to reply? how to note? how to put pressure? how to value? how to get feedback? So, we actually create a really powerful workflow.
-
-So, my view is in a graph. So, the challenge for the candidate to do this is to show a good example of a simple recruitment process and how they could create that using Neo4J.
+With a graph, I'm hoping we can create a really powerful workflow.
 
